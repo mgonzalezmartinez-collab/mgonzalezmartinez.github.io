@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EKO - ¡Sé parte!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <a href="index.html" class="brand-logo-link">
+          <span class="brand-logo">eko</span>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="se-parte.html" class="active">¡Sé parte!</a></li>
+      </ul>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar...">
+        <button onclick="buscarTexto()"><i class="fas fa-search"></i></button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="slide-card">
+      <div class="card-content">
+        <h2>¡SÉ PARTE DE NUESTRO EKO!</h2>
+        <h3>¿Cómo hacer tu robot?</h3>
+        <p>Con el siguiente link a la vista, tendrás las instrucciones necesarias para lograr que un Eko funcione a la perfección. Indicando cada paso y materiales para lograr el resultado:</p>
+        
+        <!-- Enlace al Google Docs indicado -->
+        <a href="https://docs.google.com/document/d/1DNRkPre85oKV5xKK2WQyIqCu9AHuRzUfSTB9nhyEQ6s/edit?usp=sharing" target="_blank" style="text-decoration: none;">
+          <button class="btn-action">
+            <i class="fas fa-file-alt"></i> Ver Instructivo Completo
+          </button>
+        </a>
+      </div>
+      <div class="card-img-wrapper">
+        <!-- Imagen enviada del escritorio con notas y cuaderno -->
+        <img src="se-parte.jpg.jpg">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h2>¡MUCHAS GRACIAS!</h2>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

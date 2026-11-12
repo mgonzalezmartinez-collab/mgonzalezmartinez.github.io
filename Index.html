@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EKO - Inicio | STUDI-HELP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navegación multipágina -->
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <a href="index.html" class="brand-logo-link">
+          <span class="brand-logo">eko</span>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="se-parte.html">¡Sé parte!</a></li>
+      </ul>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar...">
+        <button onclick="buscarTexto()"><i class="fas fa-search"></i></button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="slide-card">
+      <div class="card-img-wrapper">
+        <!-- Imagen exactas enviada del robot EKO -->
+        <img src="Diseño sin título (1).jpg" alt="Eko" style="max-height: 300px; object-fit: contain;">
+      </div>
+      <div class="card-content">
+        <h1>EKO<br>"STUDI-HELP"</h1>
+        <p><strong>LA HERRAMIENTA QUE NECESITAS PARA ESTUDIAR Y CONCENTRARTE</strong></p>
+        <p>Contamos con más de 10 cursos semanales para que puedas aprender a armar tu propio robot. ¡No dudes más y unite a nosotros! </p>
+        <!-- Botón con enlace al Google Docs -->
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScTPOleAK9ZD9G6MzwKsJVsFaRHczaNLvm8HFeXO9GrW4tM_A/viewform?usp=publish-editor" target="_blank" style="text-decoration: none;">
+          <button class="btn-action">
+            <i class="fas fa-robot"></i> ¡Unite con este link!
+          </button>
+        </a>
+        <p>Mirá nuestras redes sociales y si querés, contactanos por medio de ellas. También te dejamos al lado nuestra ubicación, donde hacemos más de 100 EKO´s al día y te vendemos todos los materiales necesarios para que vos mismo armes uno.</p>
+        <!-- Botones de Redes Sociales y Ubicación -->
+        <div class="social-buttons">
+          <a href="https://instagram.com" target="_blank" class="btn-social btn-instagram">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="https://wa.me/5491100000000" target="_blank" class="btn-social btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="https://maps.google.com" target="_blank" class="btn-social btn-location">
+            <i class="fas fa-map-marker-alt"></i> Ubicación
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Carga de imagen proporcionada
+    document.getElementById('imgEko').src = "data:image/jpeg;base64," + "..." ; // La imagen se renderiza automáticamente
+  </script>
+</body>
+</html>
